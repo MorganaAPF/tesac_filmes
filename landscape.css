@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 849px) and (orientation: landscape) {
+    html, body {
+        overflow-y: auto;
+    }
+    
     main {
         display: grid;
         grid-template: 80% 1fr / 1fr;
