@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 849px) and (orientation: landscape) {
+    main {
+        display: grid;
+        grid-template: 80% 1fr / 1fr;
+    }
+
+    section#lista {
+        position: relative;
+        align-items: center;
+    }
+
+    section#lista img {
+        width: 150px;
+        height: 70px;
+        padding-bottom: 20px;
+    }
+}
