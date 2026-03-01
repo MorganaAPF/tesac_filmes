@@ -9,11 +9,12 @@
     section#lista {
         position: relative;
         align-items: center;
+        overflow-y: auto;
     }
 
     section#lista img {
         width: 150px;
         height: 70px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
