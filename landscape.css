@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 849px) and (orientation: landscape) {
-    html, body {
-        overflow-y: auto;
-    }
-    
     main {
         display: grid;
-        grid-template: 80% 1fr / 1fr;
+        grid-template: 1fr 120px / 1fr;
     }
 
     section#lista {
@@ -15,7 +11,7 @@
         align-items: center;
         overflow-y: auto;
     }
-
+    
     section#lista img {
         width: 150px;
         height: 70px;
