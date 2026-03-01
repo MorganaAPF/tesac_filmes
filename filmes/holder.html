@@ -27,10 +27,18 @@
             height: 90vh;
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 849px) {
             main {
                 width: 100%;
                 height: 100%;
+                max-width: 100vw;
+                max-height: 100vh;
+                overflow: hidden;
+            }
+
+            iframe {
+                width: 1px;
+                min-width: 100%;
             }
         }
     </style>
